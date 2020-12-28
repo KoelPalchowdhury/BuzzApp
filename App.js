@@ -13,7 +13,7 @@ export default class App extends React.Component{
   }
 }
 const tabNavigator = createBottomTabNavigator({
-  Transaction: {screen:fb},
-  Search:{screen: }
+  Transaction: {screen:TransactionScreen},
+  Search:{screen: SearchScreen}
 })
 const AppContainer = createAppContainer(tabNavigator)
